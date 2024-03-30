@@ -1,51 +1,46 @@
-# autoCV
+# My Resume
 
-A clean CV template in LaTeX along with a GitHub action that complies the `*.tex` file and publishes a new PDF version when new changes are pushed to the repo
+This LaTeX resume template was originally created by [Jitin](https://github.com/jitinnair1/autoCV). I've forked this repository to customize and update my resume.
 
-## Template Design
 
-The template is designed to be clean with sections for
-- Tabular sections for Work Experience, Education and Projects
-- Support for including a list of publications read from a `*.bib` file
-- Header with Font Awesome icons
+## Site
+
+The latest version of my resume is hosted on GitHub Pages and can be accessed [here](https://username.github.io/repo-name/).
+
 
 ## Quickstart
-- Fork this repo (you can use the `Use this template` button)
-- Modify the `cv.tex` file and push changes to your repo
-- The complied PDF will be available under the `build` branch
 
-You can get a direct link to the generated PDF which you can use on your website, LinkedIn etc. that will always point to the latest version of your CV. Once your site is published, your CV will be accessible at: `https://username.github.io/repo-name/`
+### Step 1: Fork the Repository
+1. Go to the [original GitHub repository](https://github.com/Ragulprince).
+2. Click on the "Fork" button to create a copy of the repository in your GitHub account.
 
-For this, after editing your copy of `cv.tex` and pushing changes to your repo, under Settings -> Pages set your Github Pages source to the `build` directory
+### Step 2: Modify the `cv.tex` File
+1. Navigate to your forked repository on GitHub.
+2. Open the `cv.tex` file.
+3. Edit the file to update your personal information, skills, experience, etc.
+4. Save the changes.
 
-![](https://i.imgur.com/lwATw1o.png)
+### Step 3: Push Changes to Your Repository
+1. Commit the changes by clicking on the "Commit changes" button.
+2. Push the changes to your forked repository.
 
-## This template on Overleaf
+### Step 4: Compile the LaTeX CV
+1. After pushing the changes, a GitHub Actions workflow will automatically compile the LaTeX `cv.tex` file into a PDF.
+2. The compiled PDF will be available under the `build` branch of your repository.
 
-<a href="https://www.overleaf.com/latex/templates/autocv/scfvqfpxncwb"><img alt="Overleaf" src="https://img.shields.io/badge/Overleaf-47A141.svg?style=for-the-badge&logo=Overleaf&logoColor=white"/></a>
+### Step 5: Set Up GitHub Pages
+1. Go to your forked repository on GitHub.
+2. Click on the "Settings" tab.
+3. Scroll down to the "GitHub Pages" section.
+4. Under "Source", select `build` from the dropdown menu.
+5. Click "Save".
 
-Also, if you have a premium subscription to Overleaf, you can use Overleaf's GitHub integration to push changes to your GitHub repo directly from Overleaf.
+### Step 6: Access Your CV
+1. Once the GitHub Pages is set up, your CV will be accessible at: `https://username.github.io/repo-name/`
+   - Replace `username` with your GitHub username.
+   - Replace `repo-name` with the name of your forked repository.
 
-## Compiling the CV on your local computer
-- type `make` in the `autoCV` directory to produce file `cv.pdf`
-- you can optionally type `make clean` or `make distclean` to remove intermediate files
-
-## Detailed Instructions..
-
-[.. are available here](https://github.com/jitinnair1/autoCV/wiki/How-to-use-autoCV:-Detailed-Instructions)
-
-## More options
-- If you'd like a custom URL like `cv.name.com` check out [this page](https://github.com/jitinnair1/autoCV/wiki/Custom-URL-for-your-CV)
-- If you want to add use different versions of the CV for different langauges, you can modify the script [as seen here](https://github.com/MateusRosario/myAutoCV/blob/main/.github/workflows/build.yml) (from Mateus Rosario's [fork](https://github.com/MateusRosario/myAutoCV) of this repo)  
-
-## Issues
-Please start a new discussion or issue if you encounter problems
-
-PS: If you liked the template, do star :star: it! Thanks!
-
-
-### Also, check out:
-
-- [gradfolio](https://github.com/jitinnair1/gradfolio) - a minimal, quick-setup template for a personal website/portfolio
-- [Tail](https://github.com/jitinnair1/tail) - a minimal, quick-setup template for a blog
+### Step 7: Get a Direct Link to the PDF
+1. The direct link to the generated PDF will always point to the latest version of your CV.
+2. You can use this link on your website, LinkedIn, etc.
 
